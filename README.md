@@ -1,6 +1,6 @@
 # Controle de Presença de Alunos - IoT
 
-Sistema de controle de presença utilizando ESP32, Node-RED e MySQL, desenvolvido para a disciplina [nome da disciplina] - FATEC Sorocaba.
+Sistema de controle de presença utilizando ESP32, Node-RED e MySQL, desenvolvido para a disciplina Programação Multiplataforma - FATEC Sorocaba.
 
 **Autor:** Rafaela Mansano
 
@@ -21,8 +21,7 @@ ESP32 (Wokwi) → HTTP (via túnel) → Node-RED → MySQL → Dashboard
 - `esp32/` — código-fonte do firmware (PlatformIO)
 - `node-red/flow.json` — fluxo do Node-RED (importar via Menu > Import)
 - `database/schema.sql` — script de criação do banco de dados
-- `docs/screenshots/` — capturas de tela do sistema em funcionamento
-
+- 
 ## Como rodar o projeto
 
 1. Importar `database/schema.sql` no MySQL
